@@ -1,7 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 body {
 	background: url(../images/bg-rock.jpg) repeat;
-	color: #736e5f;
+	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	margin: 0;
@@ -107,7 +107,7 @@ p a:hover,
 	padding: 47px 0;
 }
 #body div#featured h3 {
-	color: #8e7835;
+	color: #f1c655;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 26px;
 	font-weight: normal;
@@ -135,7 +135,7 @@ p a:hover,
 	width: 530px;
 }
 #body div#featured div.section div h2 {
-	color: #8e7835;
+	color: #f1c655;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 26px;
 	font-weight: normal;
@@ -167,7 +167,7 @@ p a:hover,
 	width: 250px;
 }
 #body div#featured div.first div h2 {
-	color: #8e7835;
+	color: #f1c655;
 	font-size: 34px;
 	font-weight: normal;
 	line-height: 48px;
@@ -219,7 +219,7 @@ p a:hover,
 	width: 240px;
 }
 #body div#featured div.last h3 {
-	color: #736e5f;
+	color: #ababab;
 	font-size: 20px;
 	font-weight: normal;
 	letter-spacing: 0.05em;
@@ -414,11 +414,11 @@ p a:hover,
 	padding: 15px 0 0;
 }
 #body div#content div#services div.section {
-	float: left;
-	padding: 0 0 0 10px;
+	float: right;
 	width: 620px;
 }
 #body div#content div#services div.section h2 {
+	color: #ababab;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 20px;
 	font-weight: normal;
@@ -431,7 +431,6 @@ p a:hover,
 	list-style: none;
 	margin: 0;
 	overflow: hidden;
-	padding: 18px 0 30px;
 }
 #body div#content div#services div.section ul li {
 	width: 180px;
@@ -440,18 +439,13 @@ p a:hover,
 	overflow: hidden;
 }
 #body div#content div#services div.section div span {
-	display: block;
-	float: left;
+	/*display: block;*/
 	letter-spacing: 0.05em;
 	line-height: 24px;
-	text-align: justify;
 	width: 270px;
 }
 #body div#content div#services div.section div ul {
 	list-style: disc;
-	float: left;
-	margin: 0 0 0 38px;
-	padding: 0 0 0 15px;
 	width: 295px;
 }
 #body div#content div#services div.section div ul li {
@@ -464,7 +458,7 @@ p a:hover,
 #body div#content div#services div.sidebar {
 	background: #2e2d2a;
 	border-radius: 3px;
-	color: #948d78;
+	color: #f1c655;
 	float: right;
 	margin: 0 10px 0 0;
 	padding: 20px;
