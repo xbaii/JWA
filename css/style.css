@@ -172,7 +172,7 @@ p a:hover,
 	font-weight: normal;
 	line-height: 48px;
 	letter-spacing: 0.025em;
-	margin: 0 290px 0 0;
+	margin: 0 300px 0 0;
 	padding: 0 0 40px;
 }
 #body div#featured div.first div p {
@@ -419,7 +419,6 @@ p a:hover,
 	padding: 15px 0 0;
 }
 #body div#content div#services div.section {
-	float: right;
 	width: 620px;
 }
 #body div#content div#services div.section h2 {
@@ -783,11 +782,12 @@ p a:hover,
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 #oob_sli {
+	background-color: #212121;
   position: relative;
   overflow: hidden;
   margin: 0;
   border-radius: 4px;
-  width: 660px;
+  width: 900px;
   height:300px;
 }
 
@@ -812,18 +812,15 @@ p a:hover,
 }
 
 #oob_sli ul #one p{
-	text-align: right;
-	padding-left: 170px;
+	padding-left: 320px;
 }
 
 #oob_sli ul #two p{
-	text-align: right;
-	padding-left: 170px;
+	padding-left: 300px;
 }
 
 #oob_sli ul #three p{
-	text-align: right;
-	padding-left: 170px;
+	padding-left: 300px;
 }
 
 #oob_sli ul #two {
@@ -835,7 +832,6 @@ p a:hover,
   padding: 0;
   width: 660px;
   height: 300px;
-  text-align: right;
 	display: block;
 	overflow: inherit;
   line-height: 270px;
@@ -850,7 +846,6 @@ p a:hover,
   padding: 0;
   width: 660px;
   height: 300px;
-  text-align: right;
   line-height: 270px;
 }
 
