@@ -10,6 +10,7 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src='js/main.js'></script>
+	<script src="js/modernizr.custom.js"></script>
 
 </head>
 <body>
@@ -37,35 +38,19 @@
 			<div class="first">
 				<div>
 					<h2>Welcome to Jason Walters & Associates</h2>
-					<div id="oob_sli">
-  					<div class="o_i">
-
-   						<a href="#" class="control_prev"></a>
-  					</div>
-  					<div class="o_g">
-  						<a href="#" class="control_next">  </a>
-    				</div>
-  						<ul>
-    						<li id='one'><p>At JWA we pride ourselves on our ability to...</p></li>
-    						<li id='two'><p>We focus on business management and consulting but are always looking for new challanges. We take what we do very seriously.</p></li>
-    						<li id='three'><p>We are always ...</p></li>
-  						</ul>
-						</div>
-					<!-- <div id="slider">
-  					<a href="#" class="control_next">>></a>
-  					<a href="#" class="control_prev"><</a>
-  				<ul>
-    				<li>SLIDE 1</li>
-    				<li style="background: #aaa;">SLIDE 2</li>
-    				<li>SLIDE 3</li>
-    				<li style="background: #aaa;">SLIDE 4</li>
-  				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+					<div id="cbp-fwslider" class="cbp-fwslider">
+						<ul>
+							<li><a href="#"><img src="images/1.jpg" alt="img01"/></a><br /><br /><p>At Jason Walters and Associates we take pride in what we do.</p><p> We want you, and your business, to succeed. </p><br /><p>Please, contact us if you have any questions!</p></li>
+							<li><a href="#"><img src="images/2.jpg" alt="img02"/></a><br /><br /><p>We offer business management ideas and solutions<p> for all types of problems.<p><br /> We will work with you to figure out what will work best for you <p>and your company. </p></li>
+							<li><a href="#"><img src="images/3.jpg" alt="img03"/></a><br /><br /><p>Consulting is what we do.</p><p> We will make sure that you, and your company, are on the right track.</p></li>
+							<li><a href="#"><img src="images/4.jpg" alt="img04"/></a><br /><br /><p>Need help with planning and events?</p><p> We can help.</p><br /><p> We'll help you keep everything straight and within your budget.</li>
+						</ul>
 					</div>
 
-					<div class="slider_option">
-  					<input type="checkbox" id="checkbox">
-  					<label for="checkbox">Autoplay Slider</label>
-					</div> -->
 					<!-- <p>
 						This is just a place holder, so you can see what the site would look like. This is just a place holder, so you can see what the site would look like.
 					</p>
@@ -88,9 +73,7 @@
 						</p>
 					</li>
 				</ul>
-			</div>
-		</div> -->
-	</div>
+			</div>-->
 	<div id="footer">
 		<p class="footnote">
 			&copy; Copyright 2016. All rights reserved.
@@ -98,5 +81,26 @@
 				<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" id="linkedin"><img src='images/linkedin.png'></a>
 		</p>
 	</div>
+	<script src="js/jquery.cbpFWSlider.min.js"></script>
+	<script>
+		$( function() {
+			/*
+			- how to call the plugin:
+			$( selector ).cbpFWSlider( [options] );
+			- options:
+			{
+				// default transition speed (ms)
+				speed : 500,
+				// default transition easing
+				easing : 'ease'
+			}
+			- destroy:
+			$( selector ).cbpFWSlider( 'destroy' );
+			*/
+
+			$( '#cbp-fwslider' ).cbpFWSlider();
+
+		} );
+	</script>
 </body>
 </html>

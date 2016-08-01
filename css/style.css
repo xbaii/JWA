@@ -172,7 +172,6 @@ p a:hover,
 	font-weight: normal;
 	line-height: 48px;
 	letter-spacing: 0.025em;
-	margin: 0 300px 0 0;
 	padding: 0 0 40px;
 }
 #body div#featured div.first div p {
@@ -779,219 +778,97 @@ p a:hover,
 
 /*SLIDER*/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-
-#oob_sli {
-	background-color: #212121;
-  position: relative;
-  overflow: hidden;
-  margin: 0;
-  border-radius: 4px;
-  width: 900px;
-  height:300px;
+.cbp-fwslider {
+	position: relative;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 40px 0 60px;
 }
 
-#oob_sli ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 270px;
-  list-style: none;
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
 }
 
-#oob_sli ul #one {
-	background-image: url(../images/1.jpg);
-	background-repeat: no-repeat;
-  position: relative;
-  float: left;
-  margin-top: 40px;
-  padding: 0;
-  width: 660px;
-  height: 300px;
-  line-height: 270px;
-}
-
-#oob_sli ul #one p{
-	padding-left: 320px;
-}
-
-#oob_sli ul #two p{
-	padding-left: 300px;
-}
-
-#oob_sli ul #three p{
-	padding-left: 300px;
-}
-
-#oob_sli ul #two {
-	background-image: url(../images/2.jpg);
-	background-repeat: no-repeat;
-  position: relative;
-  float: left;
-  margin-top: 40px;
-  padding: 0;
-  width: 660px;
-  height: 300px;
+.cbp-fwslider ul li {
+	transform: translateZ(0);
+	float: left;
+	text-align: center;
+	font-size: 20px;
 	display: block;
-	overflow: inherit;
-  line-height: 270px;
+	margin: 0;
+	padding: 0;
 }
 
-#oob_sli ul #three {
-	background-image: url(../images/3.jpg);
-	background-repeat: no-repeat;
-  position: relative;
-  float: left;
-  margin-top: 20px;
-  padding: 0;
-  width: 660px;
-  height: 300px;
-  line-height: 270px;
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: center;
+	outline: none;
 }
 
-.o_i {
-	top: 10%;
-  width:130px;
-  height:130px;
-  position:absolute;
-  float:left;
-  z-index:1;
-  left:0px;
-  background-image: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 280% );
-background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 280% );
-background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 280% );
-  opacity: 0;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
-}
-.o_g {
-	top: 10%;
-  width:130px;
-  height:130px;
-  position:absolute;
-  float:right;
-  right:0px;
-  z-index:1;
-  background-image: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 280% );
-background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 280% );
-background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 280% );
-  opacity: 0;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
-
-}
-.control_next{
-	width: 180px;
-	height:100px;
-	top:20%;
-    bottom:50%;
-	position:absolute;
-	background:url(http://www.mricons.com/store/png/124214_43219_128_arrow_monotone_next_right_icon.png) no-repeat;
-	background-position:50px;
-  background-size:30px 30px;
-	}
-.control_prev {
-	width: 80px;
-	height:100px;
-	margin-left:-55px;
-	top:20%;
-    bottom:50%;
-	position:absolute;
-
-	background-position:70px;
-  background-size:20px 20px;
-	}
-#oob_sli:hover .o_i{
-
-
-  opacity: 1;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
-
-}
-#oob_sli:hover .o_g{
-
-  opacity: 1;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	float: left;
+	margin: 0 90px 0 160px;
+	max-width: 75%;
+	height: 300px;
 }
 
-
-
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-
-
-#body #featured .first div #slider {
-  position: relative;
-  overflow: hidden;
-  margin-left: auto;
-	margin-right: auto;
-  border-radius: 4px;
+.cbp-fwslider nav span {
+	position: absolute;
+	top: 25%;
+	width: 50px;
+	height: 100px;
+	background: #ababab;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 100px;
+	cursor: pointer;
+	font-weight: normal;
 }
 
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
+.cbp-fwslider nav span:hover {
+	background: #F1C655;
 }
 
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 300px;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
 }
 
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
 }
 
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
+.cbp-fwdots {
+	position: absolute;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
 }
 
-a.control_prev {
-  border-radius: 0 2px 2px 0;
+.cbp-fwdots span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: #ababab;
+	margin: 4px;
+	border-radius: 50%;
+	cursor: pointer;
 }
 
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
+.cbp-fwdots span:hover {
+	background: #f1c655;
 }
 
-#body #featured .first div .slider_option {
-  position: relative;
-  margin: 10px auto;
-  width: 160px;
-  font-size: 18px;
-}*/
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #f1c655;
+	box-shadow: 0 0 0 2px #f1c655;
+	transition: box-shadow 0.2s ease-in-out;
+}
