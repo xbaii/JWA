@@ -64,6 +64,16 @@ function do_slide(){
 	var slideHeight = $('#oob_sli ul li').height();
 	var sliderUlWidth = slideCount * slideWidth;
 
+//   $("#cbp-fwslider ul li:gt(0)").hide();
+//
+//   setInterval(function() {
+//     $('#cbp-fwslider ul li:gt(0)').hide();
+//     setInterval(function(){
+//       $('#cbp-fwslider :first-child').fadeOut()
+//          .next('li').fadeIn()
+//          .end().appendTo('#cbp-fwslider');},
+//       3000);
+// });
 
 	$('#oob_sli').css({ width: slideWidth, height: slideHeight });
 
